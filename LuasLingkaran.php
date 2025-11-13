@@ -6,9 +6,11 @@ class LuasLingkaran {
 
     public const phi = 3.14;
     public int $jari;
+    protected int $jari;
 
     public function __construct($isijari = 1) {
         $this->jari = $isijari;
+        $this->jari = $isijari;//10
     }
 
     public function tampil($nama = 'ban') {
